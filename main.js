@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<input type=\"file\" (change)=\"uploadFile($event)\" />\n<div>{{ uploadPercent | async }}</div>\n\n\n<div *ngIf=\"downloadURL | async\">\n  link: <a [href]=\"downloadURL | async\">{{ downloadURL | async }}</a>\n  <h3>Results!</h3>\n  <img width=\"500\" [src]=\"downloadURL | async\"><br>\n</div>\n"
+module.exports = "<input type=\"file\" (change)=\"uploadFile($event)\" />\r\n<div>{{ uploadPercent | async }}</div>\r\n\r\n\r\n<div *ngIf=\"downloadURL | async\">\r\n  link: <a [href]=\"downloadURL | async\">{{ downloadURL | async }}</a>\r\n  <h3>Results!</h3>\r\n  <img width=\"500\" [src]=\"downloadURL | async\"><br>\r\n</div>\r\n"
 
 /***/ }),
 
